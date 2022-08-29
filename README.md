@@ -1,7 +1,7 @@
 # django-school-management-system
 A web based application that caters the need of storing, managing and retrieve school data. i.e Managing staff, students and other workers records
 
-#Getting started.
+# Getting started.
 
 1. Clone This Project `git clone https://github.com/MGASALUCAS/django-school-management-system.git`
 2. Go To Project Directory `cd django_school_management_system`
