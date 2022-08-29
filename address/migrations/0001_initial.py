@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="Designation",
+            name="District",
             fields=[
                 (
                     "id",
@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                         verbose_name="ID",
                     ),
                 ),
-                ("name", models.CharField(max_length=100, unique=True)),
+                ("name", models.CharField(max_length=45, unique=True)),
                 ("date", models.DateField(auto_now_add=True)),
             ],
         ),
